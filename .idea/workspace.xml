@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09b10241-681f-4d13-b14a-fe8a3f7c05b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/CurrencyConversionServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyConversionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/model/CurrencyConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/test/java/com/devueda/currencyexchange/CurrencyConversionServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/CurrencyExchangeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/model/CurrencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/repository/CurrencyExchangeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/test/java/com/devueda/currencyexchange/CurrencyExchangeServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git-localconfig-repo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/LimitsServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/bean/Limits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/controller/LimitsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limits-service/src/test/java/com/devueda/rest/webservices/RestWebservicesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/example/springcloudconfigserver/CloudConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/com/example/springcloudconfigserver/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyExchangeController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/model/CurrencyExchange.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/limits-service/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/example/springcloudconfigserver/CloudConfigServerApplication.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EToE6hNfFHa1THrVORiKDXZd1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Java/projetos/microservices",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3448276",
+    "spring.configuration.checksum": "6ee077893de6f88dd3408f61e1c24b95"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.devueda.currencyexchange.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\projetos\microservices" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CurrencyConversionServiceApplication">
+    <configuration name="CloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="spring-cloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudconfigserver.CloudConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyConversionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="currency-conversion-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devueda.currencyexchange.CurrencyConversionServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devueda.currencyexchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="currency-exchange-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devueda.currencyexchange.CurrencyExchangeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="currency-exchange-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devueda.currencyexchange.CurrencyExchangeServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="limits-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devueda.rest.webservices.LimitsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.CurrencyExchangeServiceApplication8000" />
+      <item itemvalue="Spring Boot.CurrencyExchangeServiceApplication8001" />
+      <item itemvalue="Spring Boot.LimitsServiceApplication" />
+      <item itemvalue="Spring Boot.CurrencyConversionServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CurrencyConversionServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09b10241-681f-4d13-b14a-fe8a3f7c05b9" name="Changes" comment="" />
+      <created>1662628823066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662628823066</updated>
+      <workItem from="1662628824347" duration="1477000" />
+      <workItem from="1662630391335" duration="1877000" />
+      <workItem from="1662632281893" duration="1883000" />
+      <workItem from="1662634178070" duration="756000" />
+      <workItem from="1662634945886" duration="673000" />
+      <workItem from="1662635629559" duration="613000" />
+      <workItem from="1662636252939" duration="2431000" />
+      <workItem from="1662641427440" duration="3185000" />
+      <workItem from="1662676539844" duration="3158000" />
+      <workItem from="1662719540386" duration="3659000" />
+      <workItem from="1662797085823" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
