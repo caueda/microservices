@@ -33,6 +33,7 @@
         <module>spring-cloud-config-server</module>
         <module>currency-exchange-service</module>
         <module>currency-conversion-service</module>
+        <module>naming-service</module>
         <module>limits-service</module>
     </modules>
     <build>

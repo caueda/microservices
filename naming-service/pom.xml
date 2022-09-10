@@ -9,10 +9,10 @@
         <relativePath>../pom.xml</relativePath><!-- lookup parent from repository -->
     </parent>
     <groupId>com.devueda</groupId>
-    <artifactId>currency-exchange-service</artifactId>
+    <artifactId>naming-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>currency-exchange-service</name>
-    <description>currency-exchange-service</description>
+    <name>naming-service</name>
+    <description>naming-service</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
@@ -23,24 +23,8 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
