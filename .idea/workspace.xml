@@ -5,57 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b10241-681f-4d13-b14a-fe8a3f7c05b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/CurrencyConversionServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyConversionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/model/CurrencyConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/test/java/com/devueda/currencyexchange/CurrencyConversionServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/CurrencyExchangeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyExchangeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/model/CurrencyExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/repository/CurrencyExchangeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/test/java/com/devueda/currencyexchange/CurrencyExchangeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/LimitsServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/bean/Limits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/configuration/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/devueda/rest/webservices/controller/LimitsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/test/java/com/devueda/rest/webservices/RestWebservicesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/example/springcloudconfigserver/CloudConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/test/java/com/example/springcloudconfigserver/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/proxy/CurrencyExchangeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/CurrencyConversionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/CurrencyConversionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyConversionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/devueda/currencyexchange/controller/CurrencyConversionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,6 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3448276",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "6ee077893de6f88dd3408f61e1c24b95"
   }
 }]]></component>
@@ -202,7 +158,8 @@
       <workItem from="1662641427440" duration="3185000" />
       <workItem from="1662676539844" duration="3158000" />
       <workItem from="1662719540386" duration="3659000" />
-      <workItem from="1662797085823" duration="325000" />
+      <workItem from="1662797085823" duration="900000" />
+      <workItem from="1662798000601" duration="2327000" />
     </task>
     <servers />
   </component>
@@ -219,5 +176,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/currency-exchange-service" />
+      <path value="$PROJECT_DIR$/git-localconfig-repo" />
+      <path value="$PROJECT_DIR$/limits-service" />
+      <path value="$PROJECT_DIR$/spring-cloud-config-server" />
+    </ignored-roots>
   </component>
 </project>

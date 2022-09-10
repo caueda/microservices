@@ -1,6 +1,7 @@
 package com.devueda.currencyexchange.controller;
 
 import com.devueda.currencyexchange.model.CurrencyConversion;
+import com.devueda.currencyexchange.proxy.CurrencyExchangeProxy;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +17,11 @@ public class CurrencyConversionController {
 
     private Environment environment;
 
-    public CurrencyConversionController(Environment environment) {
+    private CurrencyExchangeProxy currencyExchangeProxy;
+
+    public CurrencyConversionController(Environment environment, CurrencyExchangeProxy currencyExchangeProxy) {
         this.environment = environment;
+        this.currencyExchangeProxy = currencyExchangeProxy;
     }
 
     @GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
@@ -35,6 +39,20 @@ public class CurrencyConversionController {
                 .conversionMultiple(currencyConversion.getBody().getConversionMultiple())
                 .totalCalculatedAmount(quantity.multiply(currencyConversion.getBody().getConversionMultiple()))
                 .environment(environment.getProperty("local.server.port"))
+                .build();
+    }
+
+    @GetMapping("/currency-conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
+    public CurrencyConversion calculateCurrencyConversionFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
+        CurrencyConversion currencyConversion = currencyExchangeProxy.retrieveExchangeValue(from, to);
+        return CurrencyConversion.builder()
+                .id(100L)
+                .quantity(quantity)
+                .from(from)
+                .to(to)
+                .conversionMultiple(currencyConversion.getConversionMultiple())
+                .totalCalculatedAmount(quantity.multiply(currencyConversion.getConversionMultiple()))
+                .environment(environment.getProperty("local.server.port") + " feign")
                 .build();
     }
 }
