@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b10241-681f-4d13-b14a-fe8a3f7c05b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CircuitBreakerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CircuitBreakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/devueda/currencyexchange/controller/CircuitBreakerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +178,7 @@
       <workItem from="1662676539844" duration="3158000" />
       <workItem from="1662719540386" duration="3659000" />
       <workItem from="1662797085823" duration="900000" />
-      <workItem from="1662798000601" duration="13610000" />
+      <workItem from="1662798000601" duration="15266000" />
     </task>
     <servers />
   </component>
