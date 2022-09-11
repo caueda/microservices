@@ -35,6 +35,7 @@
         <module>currency-conversion-service</module>
         <module>naming-service</module>
         <module>limits-service</module>
+        <module>api-gateway</module>
     </modules>
     <build>
         <pluginManagement>

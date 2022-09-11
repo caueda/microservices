@@ -52,7 +52,7 @@ public class CurrencyConversionController {
                 .to(to)
                 .conversionMultiple(currencyConversion.getConversionMultiple())
                 .totalCalculatedAmount(quantity.multiply(currencyConversion.getConversionMultiple()))
-                .environment(environment.getProperty("local.server.port") + " feign")
+                .environment(currencyConversion.getEnvironment() + " feign")
                 .build();
     }
 }
